@@ -5,6 +5,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p>React dictionary</p>
+        <a className="btn btn-primary">hello</a>
       </header>
     </div>
   );
