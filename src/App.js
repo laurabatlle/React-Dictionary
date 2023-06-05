@@ -12,7 +12,16 @@ function App() {
           <Dictionary />
         </main>
       </div>
-      <footer> Coded by Laura Batlle </footer>
+      <footer>
+        {" "}
+        Coded with ❤️ by Laura Batlle{" "}
+        <a
+          href="https://github.com/laurabatlle/React-Dictionary"
+          target="_blank"
+        >
+          open-source code in Github{" "}
+        </a>
+      </footer>
     </div>
   );
 }
