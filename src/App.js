@@ -18,6 +18,7 @@ function App() {
         <a
           href="https://github.com/laurabatlle/React-Dictionary"
           target="_blank"
+          rel="noreferrer"
         >
           open-source code in Github{" "}
         </a>
