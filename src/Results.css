@@ -1,0 +1,18 @@
+.Results h2 {
+  color: #4d4dff;
+  font-size: 76px;
+  margin: 10px 10px;
+  line-height: 1;
+}
+.Results h4 {
+  font-weight: 100;
+  border-bottom: 1px solid #ccc;
+  margin: 20px 10px;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+.phonetics {
+  font-style: italic;
+  font-weight: 150;
+}

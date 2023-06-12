@@ -1,10 +1,11 @@
-.Synonyms ul {
-  list-style: none;
-  padding-left: 0;
-  font-size: 15px;
+.synonym-item {
+  display: inline-block;
+  border: 0.5px solid #ccc;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 5px;
 }
-.Synonyms .syn-explanation {
-  font-style: normal;
-  font-weight: bolder;
-  font-size: 15px;
+
+.Synonyms li {
+  list-style-type: none;
 }

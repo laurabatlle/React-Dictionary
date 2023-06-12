@@ -1,11 +1,27 @@
 .App-header {
-  margin-top: 40px;
+  font-size: 76px;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 40px;
-  color: blue;
+  padding: 10px;
 }
 
-footer {
+.App-footer {
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.App {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.App-container {
+  text-align: left;
+}
+
+.container footer {
   text-align: center;
 }
