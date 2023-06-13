@@ -5,7 +5,7 @@ import Results from "./Results.js";
 import Images from "./Images";
 
 export default function Dictionary() {
-  let [keyword, setKeyword] = useState("");
+  let [keyword, setKeyword] = useState("book");
   let [results, setResults] = useState(null);
   let [loaded, setLoaded] = useState(false);
   let [image, setImage] = useState(null);
