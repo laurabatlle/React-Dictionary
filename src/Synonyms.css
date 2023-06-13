@@ -1,11 +1,17 @@
 .synonym-item {
   display: inline-block;
+  color: white;
   border: 0.5px solid #ccc;
+  background-color: rgb(77, 77, 255);
   border-radius: 25px;
-  padding: 5px;
+  padding: 5px 10px;
   margin: 5px;
 }
 
 .Synonyms li {
   list-style-type: none;
+}
+
+span {
+  font-weight: bolder;
 }

@@ -2,11 +2,13 @@ h4 {
   font-style: italic;
   font-weight: 100;
   margin-left: 10px;
+  text-transform: capitalize;
 }
 
 .example {
   margin-left: 20px;
   font-style: italic;
+  text-transform: uppercase;
 }
 
 .Meaning-separator {
@@ -17,6 +19,7 @@ h4 {
 
 .Meaning p {
   margin-left: 10px;
+  text-transform: capitalize;
 }
 
 .Meaning-noexamples {

@@ -16,3 +16,11 @@
   font-style: italic;
   font-weight: 150;
 }
+
+.Results section {
+  background-color: #f7f7f7;
+  padding: 25px;
+  border-radius: 4px;
+  margin: 25px 0;
+  box-shadow: -1px 2px 6px 1px rgba(58, 64, 90, 0.15);
+}
