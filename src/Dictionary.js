@@ -27,6 +27,10 @@ export default function Dictionary() {
     let imgApiUrl = `https://api.shecodes.io/images/v1/search?query=${keyword}&key=${imgApiKey}`;
     axios.get(imgApiUrl).then(handleImages);
   }
+  function handleSubmit(event) {
+    event.preventDefault();
+    search();
+  }
 
   function handleKeywordChange(event) {
     setKeyword(event.target.value);
@@ -41,7 +45,7 @@ export default function Dictionary() {
     return (
       <div className="Dictionary">
         <section>
-          <form align="center" onSubmit={search}>
+          <form align="center" onSubmit={handleSubmit}>
             <input
               type="search"
               placeholder="Search for a word"
